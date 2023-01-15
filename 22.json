@@ -1,0 +1,9 @@
+{
+    "story": "You sleep well. In the morning you get up and eat breakfast. You notice debris on the floor\nand hear everyone talking about something terrible that happened in a town called Rehdeck.\nDo you go up to a farmer who is talking about Rehdeck and ask him what happened\nor do you leave the hotel and continue your journey down Chittyville road?",
+    "options": {
+        "Ask about Rehdeck": "89",
+        "Continue your journey": "90"
+    },
+    "music path": "Chittyville Road.mp3",
+    "image path": "Chittyville Road.png"
+}

@@ -1,11 +1,10 @@
 {
-    "story": "this is page 2",
+    "story": "You begin your journey down Chittyville Road.\nDo you choose to walk, bike, or drive?",
     "options": {
-        "ur mom 69": "3",
-        "isn't this fun": "3",
-        "yo here's a third button": "1",
-        "this one won't go anywhere": "2"
+        "Walk": "7",
+        "Bike": "8",
+        "Drive": "9"
     },
-    "music path": "Burbon Road.mp3",
-    "image path": "Burbon Road.png"
+    "music path": "Chittyville Road.mp3",
+    "image path": "Chittyville Road.png"
 }

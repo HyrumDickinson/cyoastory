@@ -1,0 +1,9 @@
+{
+    "story": "You walk all day long.\nIt is getting dark, and you see a hotel ahead of you.\nDo you go to the hotel or continue walking?",
+    "options": {
+        "Go to the hotel": "22",
+        "Keep walking": "23"
+    },
+    "music path": "Chittyville Road.mp3",
+    "image path": "Chittyville Road.png"
+}
