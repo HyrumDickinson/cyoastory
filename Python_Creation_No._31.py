@@ -7,7 +7,7 @@ comments for choose your own adventure story
 # 4: text, image, music
 # 5: text, image, music
 # 6: text, image, music
-# 7: text
+# 7: text, image
 # 8:
 # 9:
 # 10:
@@ -22,7 +22,7 @@ comments for choose your own adventure story
 # 19:
 # 20:
 # 21:
-# 22: text
+# 22: text, image
 # 23:
 # 24:
 # 25:
@@ -89,7 +89,7 @@ comments for choose your own adventure story
 # 86:
 # 87:
 # 88:
-# 89: text
+# 89: text, image
 # 90:
 # 91:
 # 92:
