@@ -1,23 +1,12 @@
 {
     "story": "once upon a time ur mom was a hoe. to choose the wizard, go to page 2. to choose the hoe, go to page 3",
-    "option labels": [
-        "put",
-        "options",
-        "here",
-        "like",
-        "this",
-        "that",
-        "correspond to the option numbers"
-    ],
-    "option numbers": [
-        "2",
-        "5",
-        "7",
-        "like",
-        "this",
-        "that",
-        "correspond to the option labels"
-    ],
+    "options": {
+        "option 1 text": "option 1 page number",
+        "option 2 text": "2",
+        "option 3 text": "3",
+        "option 4 text": "4",
+        "option 5 text": "5"
+    },
     "music_path": "put path to music here",
     "image_path": "put path to image here"
 }

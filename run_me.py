@@ -22,15 +22,15 @@ class Window:
         self._window1.title("CHOOSE YOUR OWN ADVENTURE")
 
         # load first page
-        self.go_to_new_page(1)
+        self.go_to_new_page(page=1, wipe=False)
 
-    def go_to_new_page(self, page):
+    def go_to_new_page(self, page, wipe=True):
         """
         load page onto window
         """
 
         print(f"entering page {page}")
-        if page != 1:
+        if wipe:
             self.wipe_window()
 
         # infer where the page info file is
@@ -40,8 +40,7 @@ class Window:
         with open(f'{page}.json') as file:
             page_info = json.load(file)
         self.story = page_info['story']
-        self.option_labels = page_info['option labels']
-        self.option_numbers = page_info['option numbers']
+        self.options = page_info['options']
 
         # these paths are relative paths, meaning they're not the full path
         # but just the path from run_me.py to the file you want
@@ -59,24 +58,21 @@ class Window:
         self.x_1 = tk.Label(self._window1, text=self.story)
         self.x_1.pack()
 
-        # label: page
-        button_info = {
-            "chesese": 2,
-            "asdfasdf": 3,
-        }
         self.buttons = []
 
         # make variable amount of buttons
-        for i, label in enumerate(button_info):
+        i = 0
+        for key, value in self.options.items():
+            print(f"\nKey: {key}")
+            print(f"Value: {value}\n")
             self.buttons.append(
                 tk.Button(
-                    text=label,
-                    command=lambda a=label: self.go_to_new_page(button_info[a])
+                    text=key,
+                    command=lambda a=value: self.go_to_new_page(a)
                 )
             )
             self.buttons[i].pack(side=tk.LEFT)
-
-        print(self.buttons[1])
+            i += 1
 
         # run window
         self._window1.mainloop()

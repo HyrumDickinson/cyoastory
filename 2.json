@@ -1,23 +1,11 @@
 {
     "story": "this is page 2",
-    "option labels": [
-        "and",
-        "options",
-        "here",
-        "different",
-        "this",
-        "xD",
-        "correspond to the option numbers"
-    ],
-    "option numbers": [
-        "2",
-        "asdf",
-        "asdf",
-        "asdf",
-        "this",
-        "that",
-        "asdfasdf to the option labels"
-    ],
+    "options": {
+        "ur mom 69": "3",
+        "isn't this fun": "3",
+        "yo here's a third button": "1",
+        "this one won't go anywhere": "2"
+    },
     "music_path": "C:/Users/CALEB DICKINSON/Documents/Scores Choose your own adventure music 1.mp3",
     "image_path": "C:/Users/CALEB DICKINSON/Downloads/Choose your own adventure.png"
 }
