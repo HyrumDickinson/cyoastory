@@ -1,12 +1,12 @@
 {
-    "story": "You are off to seek your fortune.\n There are five roads that lead away from the town where you live.\n Which road do you choose to travel?",
+    "story": "this is page 3",
     "option labels": [
-        "put",
-        "options",
-        "here",
+        "asdf",
+        "asdf",
+        "asdf",
         "like",
         "this",
-        "that",
+        "asdf",
         "correspond to the option numbers"
     ],
     "option numbers": [

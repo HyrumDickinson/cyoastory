@@ -15,14 +15,23 @@ class Window:
     def __init__(self):
 
         # populate window with initial info
+
+        # create window
+        self._window1 = tk.Tk()
+        self._window1.geometry("516x516")
+        self._window1.title("CHOOSE YOUR OWN ADVENTURE")
+
+        # load first page
         self.go_to_new_page(1)
 
     def go_to_new_page(self, page):
+        """
+        load page onto window
+        """
 
-        # create new window
-        _window1 = tk.Tk()
-        _window1.geometry("516x516")
-        _window1.title("CHOOSE YOUR OWN ADVENTURE")
+        print(f"entering page {page}")
+        if page != 1:
+            self.wipe_window()
 
         # infer where the page info file is
         # from page - works if info is stored in
@@ -32,7 +41,7 @@ class Window:
             page_info = json.load(file)
         self.story = page_info['story']
         self.option_labels = page_info['option labels']
-        self.option_number = page_info['option number']
+        self.option_numbers = page_info['option numbers']
 
         # these paths are relative paths, meaning they're not the full path
         # but just the path from run_me.py to the file you want
@@ -47,25 +56,39 @@ class Window:
         # img1 = ImageTk.PhotoImage(Image.open(PATH_IMG1))
         # label = tk.Label(_window1, image=img1)
         # label.place(x=0, y=0)
-        x_1 = tk.Label(_window1, text=self.story)
-        x_1.pack()
+        self.x_1 = tk.Label(self._window1, text=self.story)
+        self.x_1.pack()
 
         # label: page
         button_info = {
             "chesese": 2,
             "asdfasdf": 3,
         }
+        self.buttons = []
 
         # make variable amount of buttons
-        for label in button_info:
-            button = tk.Button(
-                text=label,
-                command=lambda: self.go_to_new_page(button_info[label])
+        for i, label in enumerate(button_info):
+            self.buttons.append(
+                tk.Button(
+                    text=label,
+                    command=lambda a=label: self.go_to_new_page(button_info[a])
+                )
             )
-            button.pack(tk.LEFT)
+            self.buttons[i].pack(side=tk.LEFT)
+
+        print(self.buttons[1])
 
         # run window
-        _window1.mainloop()
+        self._window1.mainloop()
+
+    def wipe_window(self):
+        """
+        destroy everything on the window
+        to make way for the next page
+        """
+        for button in self.buttons:
+            button.destroy()
+        self.x_1.destroy()
 
 
 if __name__ == "__main__":
