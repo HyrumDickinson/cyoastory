@@ -1,0 +1,23 @@
+{
+    "story": "You are off to seek your fortune.\n There are five roads that lead away from the town where you live.\n Which road do you choose to travel?",
+    "option labels": [
+        "put",
+        "options",
+        "here",
+        "like",
+        "this",
+        "that",
+        "correspond to the option numbers"
+    ],
+    "option number": [
+        "2",
+        "5",
+        "7",
+        "like",
+        "this",
+        "that",
+        "correspond to the option labels"
+    ],
+    "music path": "C:/Users/CALEB DICKINSON/Documents/Scores Choose your own adventure music 1.mp3",
+    "image path": "C:/Users/CALEB DICKINSON/Downloads/Choose your own adventure.png"
+}
