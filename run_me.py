@@ -45,16 +45,16 @@ class Window:
         # these paths are relative paths, meaning they're not the full path
         # but just the path from run_me.py to the file you want
         # which makes it easier cuz you don't have to put the
-        # self.music_path = page_info['music path']
-        # self.image_path = page_info['image path']
+        self.music_path = page_info['music path']
+        self.image_path = page_info['image path']
 
         # populate window with info
-        # PATH_MUSIC1 = self.music_path
-        # playsound(PATH_MUSIC1, block=False)
-        # PATH_IMG1 = self.image_path
-        # img1 = ImageTk.PhotoImage(Image.open(PATH_IMG1))
-        # label = tk.Label(_window1, image=img1)
-        # label.place(x=0, y=0)
+        PATH_MUSIC1 = self.music_path
+        playsound(PATH_MUSIC1, block=False)
+        PATH_IMG1 = self.image_path
+        img1 = ImageTk.PhotoImage(Image.open(PATH_IMG1))
+        label = tk.Label(self._window1, image=img1)
+        label.place(x=0, y=0)
         self.x_1 = tk.Label(self._window1, text=self.story)
         self.x_1.pack()
 
@@ -85,6 +85,7 @@ class Window:
         for button in self.buttons:
             button.destroy()
         self.x_1.destroy()
+        # TODO if you have commands to stop the previous page's music they would go here
 
 
 if __name__ == "__main__":
