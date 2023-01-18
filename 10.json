@@ -1,0 +1,9 @@
+{
+    "story": "After walking for 18 minutes, a car suddenly stops by you and the window opens.\nA stranger pokes his head out and says \"Do you want a ride?\". Do you say yes or no?",
+    "options": {
+        "\"Yes\"": "32",
+        "\"No\"": "33"
+    },
+    "music path": "Paplau Road.wav",
+    "image path": "cyoastory3.jpg"
+}

@@ -1,0 +1,10 @@
+{
+    "story": "You walk along the road. Soon, you can't see any more cornfields or trees.\nYou are walking along in the middle of what is getting more and more of a hilly moor.\nYou see an X marked on the side of the road in the dirt with purple paint.\nDo you dig it up, sit there and wonder what to do, or you walk on?",
+    "options": {
+        "Dig up the \"X\"": "82",
+        "Sit on the grass and wonder what to do": "83",
+        "Continue your journey": "84"    
+    },
+    "music path": "Icicle Road.wav",
+    "image path": "cyoastory6.jpg"
+}

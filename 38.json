@@ -1,0 +1,14 @@
+{
+    "story": "You crash and fall over unconscious. When you wake up, you are in a hospital.\nDo you ask what happened, say \"A scoop of jam saves the day\", \"Friday exploded on Thursday\",\n go back to sleep, say \"Bobby ate a cheeseburger on Wednesday\", say \"Nine million years ago\na man said \"Hi\" \", or make strange grunting sounds that sound exactly like a pig's?",
+    "options": {
+        "Ask what happened": "134",
+        "\"A scoop of jam...\"": "135",
+        "\"Friday exploded...\"": "136",
+        "Sleep": "137",
+        "\"Bobby ate a cheeseburger...\"": "138",
+        "\"Nine million years ago...\"": "139",
+        "Pig sounds": "140"
+    },
+    "music path": "Paplau Road.wav",
+    "image path": "cyoastory3.jpg"
+}

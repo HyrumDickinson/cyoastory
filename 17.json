@@ -1,0 +1,10 @@
+{
+    "story": "You bike into a dark forest. The road splits into 3 roads.\nDo you bike down the road that leads into a gaping cave,\ngo on the road that leads to the witches house,\nor go on the road that leads to the wizards house?",
+    "options": {
+        "Cave": "76",
+        "Witch": "77",
+        "Wizard": "78"    
+    },
+    "music path": "Burbon Road.wav",
+    "image path": "cyoastory5.jpg"
+}

@@ -1,0 +1,9 @@
+{
+    "story": "You grab your bed and throw it out and then jump on the bundle.\nYou take the bundle and set the bed up on a grassy hill. Do you try to stay awake or do you go to sleep?",
+    "options": {
+        "Try to stay awake": "151",
+        "Go to sleep": "152"
+    },
+    "music path": "Vizinni Road.wav",
+    "image path": "cyoastory4.jpg"
+}

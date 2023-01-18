@@ -1,0 +1,10 @@
+{
+    "story": "Debris rains upon you, but you stay safe. Soon the earthquake stops.\nDo you poke your head out of the blanket to look around, do nothing, or try to get up?",
+    "options": {
+        "Look around": "155",
+        "Do nothing": "156",
+        "Try to get up": "157"
+    },
+    "music path": "Vizinni Road.wav",
+    "image path": "cyoastory4.jpg"
+}

@@ -1,0 +1,13 @@
+{
+    "story": "You bike on. At noon, you pass a hotel. By afternoon you reach to the city of Chittyville.\nThere are 3 places to sleep in Chittyville. Happy Pappy Motel is a negative 1 star motel that\ncosts 99 cents a night. Holidye Inn and Suites is a 3 star hotel that costs 100 dollars a night, and\nthe Delux Chat Qoue is an 8 star hotel that costs 20,000 dollars a night.\n\nYou could also spend nothing and sleep in the grass by the side of the road, or you could keep biking.\nIf you keep biking, you could try to bike back to the first hotel you saw, or\ncontinue down Chittyville Road into the unknown.",
+    "options": {
+        "Sleep in the grass": "24",
+        "Holidye Inn and Suites": "26",
+        "Happy Pappy Motel": "27",
+        "the Delux Chat Qoue": "28A",
+        "Bike back to first hotel": "25",
+        "Continue": "29"
+    },
+    "music path": "Chittyville Road.wav",
+    "image path": "cyoastory2.jpg"
+}

@@ -1,0 +1,9 @@
+{
+    "story": "You pass a nice hotel after 30 minutes of driving, and in another 30 minutes, you pass through\nChittyville (which is 21 miles from where you started) and drive on. You drive on and on.\nNow there are no more towns or villages, it is just farmland. Eventually, after about\n300 miles of driving, you come to a fork in the road. It is getting dark. A sign says:\nGo right to go to Vesterville (4 miles) and Combden (57 miles). Go left to go to\nPristine Harbor (382 miles) or Mogol, the Capital City (96 miles). Do you turn right or left?",
+    "options": {
+        "Right": "30",
+        "Left": "31"
+    },
+    "music path": "Chittyville Road.wav",
+    "image path": "cyoastory2.jpg"
+}

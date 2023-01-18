@@ -1,0 +1,9 @@
+{
+    "story": "You check into the hotel and go to sleep. By now you have driven deep into the mountains,\nand the hotel sits precariously near the edge of the cliff. But you have no other choice,\nas you know that you would freeze to death if you tried to sleep in your car in these mountains.\nThe hotel is small and rustic, and you are in such a remote area that\nthe only visitors that night apart from a group of mountain climbers.\nIn the middle of the night you are awakened by wind and rain.\nDo you go back to sleep or look out the window to see how bad the storm is?",
+    "options": {
+        "Go back to sleep": "87",
+        "Look out the window": "88"    
+    },
+    "music path": "Icicle Road.wav",
+    "image path": "cyoastory6.jpg"
+}

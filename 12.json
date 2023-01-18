@@ -1,0 +1,13 @@
+{
+    "story": "You zoom along the road. There's a car full of criminals behind you. They shoot a bullet at\nthe back of your car, but miss. Do you drive faster, drive normally like nothing happened,\ndrive slower, call 911, ditch your car by the side of the road and run straight into a cornfield,\nor zoom your car straight into a cornfield?",
+    "options": {
+        "Drive faster": "39",
+        "Drive normally": "40",
+        "Drive slower": "41",
+        "Call 911": "42",
+        "Stop and run into cornfield": "43",
+        "Drive into cornfield": "44"
+    },
+    "music path": "Paplau Road.wav",
+    "image path": "cyoastory3.jpg"
+}

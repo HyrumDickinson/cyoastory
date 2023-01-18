@@ -1,0 +1,9 @@
+{
+    "story": "You find people carrying 19-foot baguettes out of a burning building.\nDo you help them or lazily and selfishly bask in the sun while you yawn and watch them?",
+    "options": {
+        "Help them": "531",
+        "Relax while you watch the baguette building burn down": "532"
+    },
+    "music path": "Chittyville Road.wav",
+    "image path": "cyoastory267.jpg"
+}

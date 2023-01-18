@@ -1,0 +1,10 @@
+{
+    "story": "The roof collapses. Soon the whole building collapses.\nBut you stay safe because where you are is a hollow in the wreckage.\nDo you stay still, sit and think hard, or try to dig yourself out?",
+    "options": {
+        "Stay still": "158",
+        "Sit and think hard": "159",
+        "Try to dig yourself out": "160"
+    },
+    "music path": "Vizinni Road.wav",
+    "image path": "cyoastory4.jpg"
+}

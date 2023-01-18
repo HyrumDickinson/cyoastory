@@ -3,8 +3,8 @@
     "options": {
         "Walk": "19",
         "Bike": "20",
-        "Drive": "21"
+        "Drive": "21A"
     },
-    "music path": "Icicle Road.mp3",
+    "music path": "Icicle Road.wav",
     "image path": "cyoastory6.jpg"
 }

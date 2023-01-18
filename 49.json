@@ -1,0 +1,9 @@
+{
+    "story": "The building shakes harder. Do you still do nothing, or hide under the bed?",
+    "options": {
+        "Do nothing": "153",
+        "Hide under the bed": "154"
+    },
+    "music path": "Vizinni Road.wav",
+    "image path": "cyoastory4.jpg"
+}

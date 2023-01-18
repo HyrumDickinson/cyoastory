@@ -1,0 +1,9 @@
+{
+    "story": "After you go to sleep you hear a loud sound. Do you get up or go back to sleep?",
+    "options": {
+        "Get up": "110",
+        "Go back to sleep": "111"
+    },
+    "music path": "cyoastory28C.wav",
+    "image path": "cyoastory2.jpg"
+}
