@@ -1,10 +1,11 @@
 """
-concatenation of python creations numbers 21 & 26
+Final version of choose your own adventure story.
 """
 import json
 import tkinter as tk
-from playsound import playsound
 from PIL import ImageTk, Image
+from pygame import mixer
+mixer.init()
 
 
 class Window:
@@ -18,7 +19,7 @@ class Window:
 
         # create window
         self._window1 = tk.Tk()
-        self._window1.geometry("516x516")
+        self._window1.geometry("772x772")
         self._window1.title("CHOOSE YOUR OWN ADVENTURE")
 
         # load first page
@@ -49,10 +50,10 @@ class Window:
         self.image_path = page_info['image path']
 
         # populate window with info
-        PATH_MUSIC1 = self.music_path
-        playsound(PATH_MUSIC1, block=False)
-        PATH_IMG1 = self.image_path
-        img1 = ImageTk.PhotoImage(Image.open(PATH_IMG1))
+        mixer.music.load(self.music_path)
+        mixer.music.play(loops=-1)
+        path_img = self.image_path
+        img1 = ImageTk.PhotoImage(Image.open(path_img))
         label = tk.Label(self._window1, image=img1)
         label.place(x=0, y=0)
         self.x_1 = tk.Label(self._window1, text=self.story)
@@ -68,10 +69,12 @@ class Window:
             self.buttons.append(
                 tk.Button(
                     text=key,
-                    command=lambda a=value: self.go_to_new_page(a)
+                    command=lambda a=value: [
+                        mixer.music.stop(), self.go_to_new_page(a)
+                    ]
                 )
             )
-            self.buttons[i].pack(side=tk.LEFT)
+            self.buttons[i].pack(side=tk.LEFT, padx=1)
             i += 1
 
         # run window
@@ -85,7 +88,6 @@ class Window:
         for button in self.buttons:
             button.destroy()
         self.x_1.destroy()
-        # TODO if you have commands to stop the previous page's music they would go here
 
 
 if __name__ == "__main__":
