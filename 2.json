@@ -2,7 +2,7 @@
     "story": "You begin your journey down Chittyville Road.\nDo you choose to walk, bike, or drive?",
     "options": {
         "Walk": "7",
-        "Bike": "8",
+        "Bike": "8A",
         "Drive": "9"
     },
     "music path": "[2] Chittyville Road.wav",
