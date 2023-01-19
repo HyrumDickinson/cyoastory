@@ -1,0 +1,14 @@
+{
+    "story": "You walk along. By afternoon, you reach a small town called Rehdek. You book in at a nice hotel\nand go to sleep. In the middle of the night, you wake up. All you hear is screaming.\nThe room is shaking violently back and forth in a 7.7 magnitude earthquake. Do you try to\ngo back to sleep, scream, run to the window, call 911, do nothing, lie down on the floor\nand cover yourself up with a blanket, stand in a doorway, climb out the window\nand on to the roof of the hotel and start screaming, or jump out of the window?",
+    "options": {
+        "Sleep": "45",
+        "Scream": "46",
+        "Run to the window": "47",
+        "Call 911": "48",
+        "Do nothing": "49",
+        "Blanket": "50",
+        "Doorway": "51",
+        "Scream on Roof": "52",
+        "Jump": "53"
+    }
+}

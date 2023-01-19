@@ -1,9 +1,0 @@
-{
-    "story": "You bike far into the night. At 3 in the morning, you become so tired your bike goes off the road as\nyou fall asleep and you fall on the grass. When you wake up, an earthquake is shaking you violently.\nDo you go back to sleep or get up?",
-    "options": {
-        "Go back to sleep": "112",
-        "Get up": "113"
-    },
-    "music path": "[2] Chittyville Road.wav",
-    "image path": "cyoastory2.jpg"
-}

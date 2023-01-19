@@ -1,0 +1,10 @@
+{
+    "story": "You bike along. After biking for about 5 hours you notice that a car is following you.\nDo you call 911, ditch your bike and run into a cornfield, go along like normal, go faster,\nor zoom into a cornfield while still on your bike?",
+    "options": {
+        "Call 911": "34",
+        "Run into cornfield": "35",
+        "Bike normally": "36",
+        "Bike faster": "37",
+        "Bike into cornfield": "38"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "story": "The man shoots at you, but misses. Do you bike into a cornfield on the side of the road at full speed to escape,\nkeep biking as if nothing happened, or call 911 and scream \"HELLLLP!!! A man is trying to shoot me!\"?",
+    "options": {
+        "Bike into a cornfield": "131",
+        "Keep biking": "132",
+        "Call 911": "133"
+    }
+}

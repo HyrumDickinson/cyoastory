@@ -1,0 +1,7 @@
+{
+    "story": "You hear shooting behind you and some bullets fly so close to you that you can feel the wind from them,\nbut you crouch down and hide, and suddenly a police car rides down and catches the man,\nputs him in chains, and then starts the car. You are suffering from shock.\nDo you call out to the policeman for help or do you do nothing?",
+    "options": {
+        "Ask the policeman for help": "129",
+        "Do nothing": "130"
+    }
+}

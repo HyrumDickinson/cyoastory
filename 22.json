@@ -1,9 +1,0 @@
-{
-    "story": "You sleep well. In the morning you get up and eat breakfast. You notice debris on the floor\nand hear everyone talking about something terrible that happened in a town called Rehdeck.\nDo you go up to a farmer who is talking about Rehdeck and ask them what happened\nor do you leave the hotel and continue your journey down Chittyville road?",
-    "options": {
-        "Ask about Rehdeck": "89",
-        "Continue your journey": "90"
-    },
-    "music path": "[2] Chittyville Road.wav",
-    "image path": "cyoastory22.jpg"
-}

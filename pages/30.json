@@ -1,0 +1,7 @@
+{
+    "story": "You go to Vesterville for the night and have a nice sleep in a good hotel.\nIn the morning, you get up and continue driving. Do you turn on the news?",
+    "options": {
+        "Turn on the news": "114",
+        "Don't turn on the news": "115"
+    }
+}

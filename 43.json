@@ -1,9 +1,0 @@
-{
-    "story": "You wake up in an ambulance. Do you go back to sleep or try to get up?",
-    "options": {
-        "Sleep": "143",
-        "Try to get up": "144"
-    },
-    "music path": "[3] Paplau Road.wav",
-    "image path": "cyoastory3.jpg"
-}

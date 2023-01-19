@@ -38,21 +38,15 @@ class Window:
         # from page - works if info is stored in
         # .json file named the page number
         # load info from file into python
-        with open(f'{page}.json') as file:
+        with open(f'pages/{page}.json') as file:
             page_info = json.load(file)
         self.story = page_info['story']
         self.options = page_info['options']
 
-        # these paths are relative paths, meaning they're not the full path
-        # but just the path from run_me.py to the file you want
-        # which makes it easier cuz you don't have to put the
-        self.music_path = page_info['music path']
-        self.image_path = page_info['image path']
-
         # populate window with info
-        mixer.music.load(self.music_path)
+        mixer.music.load(f'music/{page}.wav')
         mixer.music.play(loops=-1)
-        path_img = self.image_path
+        path_img = f'images/{page}.jpg'
         img1 = ImageTk.PhotoImage(Image.open(path_img))
         label = tk.Label(self._window1, image=img1)
         label.place(x=0, y=0)

@@ -1,8 +1,0 @@
-{
-    "story": "You drive on. You soon find yourself in a hilly moor. By nighttime, you see a nice hotel.\nWhen you get out of your car, the wind is very strong and cold. Dark clouds hover in the sky.",
-    "options": {
-        "Continue": "21B"    
-    },
-    "music path": "[6] Icicle Road.wav",
-    "image path": "cyoastory6.jpg"
-}

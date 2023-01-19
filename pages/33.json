@@ -1,0 +1,7 @@
+{
+    "story": "He says: \"It is cold out. Are you sure you don't want a ride?\"\nDo you say \"Yes, I am sure.\" or \"No, I think I'll actually come with you.\nPlease take me to the city of Paplau.\"?",
+    "options": {
+        "You don't let him persuade you": "122",
+        "You let him persuade you": "123"
+    }
+}

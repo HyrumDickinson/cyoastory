@@ -1,9 +1,0 @@
-{
-    "story": "While you are driving, an earthquake suddenly begins.\nDo you keep on driving or stop the car on the side of the road?",
-    "options": {
-        "Keep driving": "116",
-        "Stop the car": "117"
-    },
-    "music path": "[2] Chittyville Road.wav",
-    "image path": "cyoastory2.jpg"
-}

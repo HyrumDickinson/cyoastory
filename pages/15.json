@@ -1,0 +1,22 @@
+{
+    "story": "You drive through a little town of 500 people and then a tiny village of 137 people.\nFinally you come to a giant split. The highway branches into 16 different roads.\nDo you go straight on Vizinni road, turn onto Cheesecakeville road, go to Lafalot road,\ngo to the University of Thrill road, go to the University of Chemistry road,\ngo to Candylandville road, go to Ground 51 do not enter road, go on Stained Glass road,\nturn on noodles road, go to normal town road, go to weird town road, go to hippie paradise road,\ngo to the lumber business road, go on Country fried Squirrels road,\ngo on mouseland road, or go to Bookworm road?",
+    "options": {
+        "Vizinni": "57",
+        "Cheesecake": "58",
+        "Lafalot": "59",
+        "Thrill": "60",
+        "Chemist": "61",
+        "Candy": "62",
+        "51": "63",
+        "Glass": "64",
+        "Noodles": "65",
+        "Normal": "66",
+        "Weird": "67",
+        "Hippie": "68",
+        "Lumber": "69",
+        "Squirrel": "70",
+        "Mouse": "71",
+        "Book": "72"
+
+    }
+}

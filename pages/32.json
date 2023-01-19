@@ -1,0 +1,9 @@
+{
+    "story": "You get in the car. The stranger suddenly chains you up and says into a microphone:\n\"Chiesel. Chiesel this is Rob. This is Rob. 1 more slave to sell. Repeat, I have one more slave to sell,\nyes, 31. I know, 31. We will brand a thirty-one on them as soon as we get there. This is Rob. Bye.\"\nDo you struggle, struggle and scream, scream, or do nothing?",
+    "options": {
+        "Struggle": "118",
+        "Struggle and scream": "119",
+        "Scream": "120",
+        "Do nothing": "121"
+    }
+}

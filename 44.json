@@ -1,9 +1,0 @@
-{
-    "story": "The criminals shoots after you, but misses. Do you run further or hide?",
-    "options": {
-        "Run": "145",
-        "Hide": "146"
-    },
-    "music path": "[3] Paplau Road.wav",
-    "image path": "cyoastory3.jpg"
-}

@@ -1,0 +1,7 @@
+{
+    "story": "You continue your journey are soon you reach Chittyville. There was an earthquake\nwhile you were sleeping last night and you slept right through it. Many buildings have collapsed.\nDo you stay in Chittyville or continue your journey?",
+    "options": {
+        "Stay in Chittyville": "267",
+        "Continue your journey": "268"
+    }
+}

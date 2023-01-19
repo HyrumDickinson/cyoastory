@@ -1,0 +1,8 @@
+{
+    "story": "You begin your journey down Icicle Road.\nDo you choose to walk, bike, or drive?",
+    "options": {
+        "Walk": "19",
+        "Bike": "20",
+        "Drive": "21A"
+    }
+}

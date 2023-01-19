@@ -1,0 +1,7 @@
+{
+    "story": "You do. As the police rush over, the man aims at you again. Do you zoom away or stay?",
+    "options": {
+        "Zoom away": "141",
+        "Stay": "142"
+    }
+}

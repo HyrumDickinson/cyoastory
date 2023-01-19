@@ -1,9 +1,0 @@
-{
-    "story": "After sleeping on a bed that is as hard as stone, you wake up in the morning\nfeeling so sore that you can't get out of bed. Do you scream for help or do nothing?",
-    "options": {
-        "Scream for help": "108",
-        "Do nothing": "109"
-    },
-    "music path": "[2] Chittyville Road.wav",
-    "image path": "cyoastory2.jpg"
-}

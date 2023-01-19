@@ -1,0 +1,7 @@
+{
+    "story": "You bike up and down grassy hills. Soon you find that you are in the middle of a moor.\nYou suddenly see a spaceship on the side of the road. Do you stop and go over to look or continue your journey?",
+    "options": {
+        "Check out the spaceship": "85",
+        "Continue your journey": "86"
+    }
+}

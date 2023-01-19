@@ -1,9 +1,0 @@
-{
-    "story": "Eventually you are forced to sleep by the side of the road. But the soft grass is not uncomfortable.\nIn the morning you get up and continue walking. By bedtime, you come to Chittyville.\nDo you book in at a hotel or sleep again by the side of the road?",
-    "options": {
-        "Go to a hotel": "91",
-        "Sleep in the grass": "92"
-    },
-    "music path": "[2] Chittyville Road.wav",
-    "image path": "cyoastory2.jpg"
-}

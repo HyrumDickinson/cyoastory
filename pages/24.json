@@ -1,0 +1,8 @@
+{
+    "story": "When you wake up, you find that your bike has been stolen.\nDo you go to the police station and report, continue your journey without a bike,\nor go to a store to buy a new one?",
+    "options": {
+        "Report to police station": "93",
+        "Continue without a bike": "94",
+        "Buy a new bike": "95"
+    }
+}
