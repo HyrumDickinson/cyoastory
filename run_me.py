@@ -9,9 +9,9 @@ mixer.init()
 
 
 class Window:
-    '''
+    """
     window
-    '''
+    """
 
     def __init__(self):
 
