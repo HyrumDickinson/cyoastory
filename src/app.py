@@ -18,6 +18,10 @@ class Window:
         # populate window with initial info
 
         # create window
+        self.buttons = None
+        self.options = None
+        self.story = None
+        self.x_1 = None
         self._window1 = tk.Tk()
         self._window1.geometry("772x772")
         self._window1.title("CHOOSE YOUR OWN ADVENTURE")
